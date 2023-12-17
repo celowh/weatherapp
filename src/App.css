@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0A0A19;
+    color: #FFF;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+header {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .search {
+    height: 50%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 1rem;
+}
+
+header .search input {
+    width: 100%;
+    height: 35px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #FFF;
+    color: #FFF;
+}
+
+
+header .search button {
+    background-color: #008000FF;
+    border: 0;
+    height: 35px;
+    padding: 0 2rem;
+    color: #FFF;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.mainContent .column {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.mainContent .column h2 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.mainContent .column .weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContent .column .weather p {
+    font-weight: bold;
+}
+
+.mainContent .column .weather .img {
+    width: 100px;
+}
+
+.mainContent .column .weather img {
+    width: 100%;
+
+}
+
+.mainContent .informationWeather {
+    margin-top: 2rem;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
